@@ -1,6 +1,4 @@
-package example;
-
-import java.nio.file.StandardCopyOption;
+package generics;
 
 public class Main {
     public static void main(String[] args) {

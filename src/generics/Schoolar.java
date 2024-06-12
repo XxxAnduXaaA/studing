@@ -1,4 +1,4 @@
-package example;
+package generics;
 
 public class Schoolar extends Participant{
     public Schoolar(String name, int age) {

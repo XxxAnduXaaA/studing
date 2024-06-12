@@ -1,4 +1,4 @@
-package example;
+package generics;
 
 public abstract class Participant {
     private String name;
