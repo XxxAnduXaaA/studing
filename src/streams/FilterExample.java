@@ -33,52 +33,8 @@ class Student {
     int age;
     double score;
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
     public String getName() {
         return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getSurname() {
-        return surname;
-    }
-
-    public void setSurname(String surname) {
-        this.surname = surname;
-    }
-
-    public int getScholarship() {
-        return scholarship;
-    }
-
-    public void setScholarship(int scholarship) {
-        this.scholarship = scholarship;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public double getScore() {
-        return score;
-    }
-
-    public void setScore(double score) {
-        this.score = score;
     }
 
     public Student(int id, String name, String surname, int scholarship, int age, double score) {
@@ -100,5 +56,21 @@ class Student {
                 ", age=" + age +
                 ", score=" + score +
                 '}';
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getScholarship() {
+        return scholarship;
+    }
+
+    String addToName(String name){
+        return name += "123";
+    }
+
+    public double getScore() {
+        return score;
     }
 }
